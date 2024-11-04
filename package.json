@@ -1,0 +1,44 @@
+{
+  "name": "factorio-update-mods",
+  "version": "1.0.0",
+  "description": "Automatically update Factorio mods",
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "node ./build/build.js",
+    "check-types": "tsc --noEmit",
+    "start": "tsx ./src/main.ts",
+    "test": "globstar -- node --import tsx --test \"**/*.spec.ts\""
+  },
+  "keywords": [],
+  "author": "Joe Portner",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^22.8.7",
+    "@types/semver": "^7.5.8",
+    "@typescript-eslint/eslint-plugin": "^8.13.0",
+    "@typescript-eslint/parser": "^8.13.0",
+    "esbuild": "^0.24.0",
+    "esbuild-plugin-tsc": "^0.4.0",
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^15.12.0",
+    "globstar": "^1.0.0",
+    "prettier": "^3.3.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "p-map": "^7.0.2",
+    "pino": "^9.5.0",
+    "pino-pretty": "^12.1.0",
+    "semver": "^7.6.3"
+  }
+}
