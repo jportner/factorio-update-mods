@@ -1,7 +1,7 @@
 import { writeFile } from 'node:fs/promises';
 import { Readable } from 'node:stream';
 
-import { Logger } from './logger';
+import { Logger } from './logger.js';
 
 const logger = new Logger('fetchUtil');
 

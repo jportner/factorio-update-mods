@@ -2,9 +2,9 @@ import { keys } from 'lodash-es';
 import pMap from 'p-map';
 import semver from 'semver';
 
-import { listInstalledMods } from './installedMods';
-import { Logger } from './logger';
-import { getFullModDownloadUrl, getLatestModRelease } from './modPortalApi';
+import { listInstalledMods } from './installedMods.js';
+import { Logger } from './logger.js';
+import { getFullModDownloadUrl, getLatestModRelease } from './modPortalApi.js';
 
 const logger = new Logger('analyzer');
 

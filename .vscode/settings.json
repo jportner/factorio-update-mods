@@ -10,4 +10,5 @@
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
 }

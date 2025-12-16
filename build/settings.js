@@ -12,6 +12,7 @@ export function createBuildSettings(options) {
     ],
     platform: 'node',
     format: 'esm',
+    sourcemap: 'external',
     ...options,
   };
 }

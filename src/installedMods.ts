@@ -2,9 +2,9 @@ import { keys } from 'lodash-es';
 import fs from 'node:fs';
 import path from 'node:path';
 
-import { type ModToDelete } from './analyzer';
-import { Logger } from './logger';
-import { semVerDesc, type SemVerString } from './util';
+import { type ModToDelete } from './analyzer.js';
+import { Logger } from './logger.js';
+import { semVerDesc, type SemVerString } from './util.js';
 
 const logger = new Logger('installedMods');
 

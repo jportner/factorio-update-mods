@@ -1,7 +1,7 @@
-import { analyzeOutdatedMods, analyzeUnusedMods } from './analyzer';
-import { deleteInstalledMod } from './installedMods';
-import { Logger } from './logger';
-import { downloadModRelease, getFactorioCredentials } from './modPortalApi';
+import { analyzeOutdatedMods, analyzeUnusedMods } from './analyzer.js';
+import { deleteInstalledMod } from './installedMods.js';
+import { Logger } from './logger.js';
+import { downloadModRelease, getFactorioCredentials } from './modPortalApi.js';
 
 const logger = new Logger('main');
 logger.info('Start');

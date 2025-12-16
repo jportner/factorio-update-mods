@@ -2,11 +2,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import semver from 'semver';
 
-import { type ModToDownload } from './analyzer';
-import { fetchFile, fetchJson } from './fetchUtil';
-import { getModPath, getModsDir } from './installedMods';
-import { Logger } from './logger';
-import { type SemVerString } from './util';
+import { type ModToDownload } from './analyzer.js';
+import { fetchFile, fetchJson } from './fetchUtil.js';
+import { getModPath, getModsDir } from './installedMods.js';
+import { Logger } from './logger.js';
+import { type SemVerString } from './util.js';
 
 const logger = new Logger('modPortalApi');
 

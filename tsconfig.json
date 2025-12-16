@@ -5,13 +5,13 @@
     "preserveConstEnums": true,
     "useUnknownInCatchVariables": false,
     "outDir": "dist",
-    "moduleResolution": "bundler",
+    "moduleResolution": "nodenext",
+    "module": "nodenext",
+    "sourceMap": true,
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Recommended config for tsx: https://tsx.is/typescript#recommendation
     // Treat files as modules even if it doesn't use import/export
     "moduleDetection": "force",
-    // Ignore module structure
-    "module": "Preserve",
     // Allow JSON modules to be imported
     "resolveJsonModule": true,
     // Allow JS files to be imported from TS and vice versa

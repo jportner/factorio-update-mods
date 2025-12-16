@@ -1,5 +1,5 @@
 import { isString } from 'lodash-es';
-import pino, { type Level } from 'pino';
+import { pino, type Level } from 'pino';
 
 const { LOG_LEVEL } = process.env;
 
